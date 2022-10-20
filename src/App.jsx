@@ -31,7 +31,7 @@ const App = () => {
         <Paper sx={{ borderRadius: "0" }}>
           <Navbar />
           <Routes>
-            <Route path="/" exact element={<Feed />} />
+            <Route path="/React-Youtube-Clone/" exact element={<Feed />} />
             <Route path="/video/:id" exact element={<Videodetails />} />
             <Route path="/channel/:id" exact element={<Channelsdetails />} />
             <Route path="/search/:searchTerm" exact element={<SearchFeed />} />
