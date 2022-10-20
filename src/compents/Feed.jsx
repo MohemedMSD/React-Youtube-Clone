@@ -28,7 +28,7 @@ const Feed = () => {
         seterror(false);
       })
       .catch((error) => {
-        setLoading(true);
+        setLoading(false);
         seterror(true);
         seterrorMSG(error.message);
       });
